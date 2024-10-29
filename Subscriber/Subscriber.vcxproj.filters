@@ -15,40 +15,40 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="source\DataReaderListenerImpl.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="source\MessengerC.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="source\MessengerS.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="source\MessengerTypeSupportC.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="source\MessengerTypeSupportImpl.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="source\MessengerTypeSupportS.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="source\Subscriber.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\PersonTypeSupportImpl.cpp">
+    <ClCompile Include="source\DataReaderListenerImpl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\PersonS.cpp">
+    <ClCompile Include="..\Common\source\MessengerC.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\PersonC.cpp">
+    <ClCompile Include="..\Common\source\MessengerS.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\PersonTypeSupportS.cpp">
+    <ClCompile Include="..\Common\source\MessengerTypeSupportC.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="source\PersonTypeSupportC.cpp">
+    <ClCompile Include="..\Common\source\MessengerTypeSupportImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\source\MessengerTypeSupportS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\source\PersonC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\source\PersonS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\source\PersonTypeSupportC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\source\PersonTypeSupportImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\source\PersonTypeSupportS.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -86,5 +86,49 @@
     <ClInclude Include="source\PersonTypeSupportC.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Common\source\MessengerC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\source\MessengerS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\source\MessengerTypeSupportC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\source\MessengerTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\source\MessengerTypeSupportS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\source\PersonC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\source\PersonS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\source\PersonTypeSupportC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\source\PersonTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\source\PersonTypeSupportS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Common\source\MessengerC.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\Common\source\MessengerTypeSupportC.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\Common\source\PersonC.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\Common\source\PersonTypeSupportC.inl">
+      <Filter>Header Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
